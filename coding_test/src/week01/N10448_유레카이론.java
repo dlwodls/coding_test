@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class N10448_유레카이론 {
 	public static int T(int p) {
-		return p * (p + 1) / 2;
+		return p * (p + 1) / 2; 
 	}
 	
 	public static void main(String[] args) {

@@ -41,7 +41,7 @@ public class N1018_체스판다시칠하기 {
 			board[i] = sc.nextLine().toCharArray();
 		}
 		
-		int min = 64; // 칠할 수 있는 최솟값 중에서 최댓값이 64
+		int min = 64; // 칠할 수 있는 최솟값 중에서 최댓값(초기값)이 64
 		
 		for (int i = 0; i <= N - 8; i++) {
 			for (int j = 0 ;j <= M - 8; j++) {
